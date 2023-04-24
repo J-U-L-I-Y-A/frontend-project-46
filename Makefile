@@ -5,11 +5,6 @@ install: install-deps
 install-deps:
 	npm ci
 
-install: install-deps
-	npx simple-git-hooks
-install:
-	npm ci
-
 gendiff:
 	node bin/gendiff.js
 
