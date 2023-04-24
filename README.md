@@ -1,7 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/J-U-L-I-Y-A/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/J-U-L-I-Y-A/frontend-project-46/actions)
 [![CI Status](https://github.com/J-U-L-I-Y-A/frontend-project-46/actions/workflows/gendiff.yml/badge.svg)](https://github.com/J-U-L-I-Y-A/frontend-project-46/actions/workflows/gendiff.yml)
-<a href="https://codeclimate.com/github/J-U-L-I-Y-A/frontend-project-46/maintainability"><img src="https://api.codeclimate.com/v1/badges/22f4344c7f4330303be9/maintainability" /></a>
+[![Maintainability](https://api.codeclimate.com/v1/badges/22f4344c7f4330303be9/maintainability)](https://codeclimate.com/github/J-U-L-I-Y-A/frontend-project-46/maintainability)
 ## Пример использования
 
 ### Сравнение плоских файлов (JSON)
