@@ -17,6 +17,7 @@
   "author": "Красулина Юлия Артуровна",
   "license": "ISC",
   "dependencies": {
+    "@jest/globals": "^29.5.0",
     "commander": "^10.0.1",
     "lodash": "^4.17.21",
     "process": "^0.11.10"
