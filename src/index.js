@@ -1,22 +1,22 @@
 import fs from 'fs';
 import path from 'path';
 import _ from 'lodash';
-import parse from '../src/parses.js';
+import parse from './parses.js';
 
 const getDataFromFile = (filepath) => {
   const fullPath = path.resolve(process.cwd(), filepath);
   return fs.readFileSync(fullPath, 'utf-8');
 };
 
-const getFormat= (filepath) => path.extname(filepath).slice(1);
+const getFormat = (filepath) => path.extname(filepath).slice(1);
 
 const genDiff = (filepath1, filepath2) => {
   const data1 = getDataFromFile(filepath1);
   const data2 = getDataFromFile(filepath2);
   const format1 = getFormat(filepath1);
   const format2 = getFormat(filepath2);
-  const obj1 = parse(data1,format1);
-  const obj2 = parse(data2,format2);
+  const obj1 = parse(data1, format1);
+  const obj2 = parse(data2, format2);
   const keys1 = Object.keys(obj1);
   const keys2 = Object.keys(obj2);
   const unionKeys = _.union(keys1, keys2);
