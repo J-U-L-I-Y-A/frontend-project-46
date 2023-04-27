@@ -10,3 +10,10 @@
 gendiff filePath1.json filePath2.json
 ```
 [![asciicast](https://asciinema.org/a/Zsz6DTDK72cjZVXRDddt3Cw4P.svg)](https://asciinema.org/a/Zsz6DTDK72cjZVXRDddt3Cw4P)
+
+### Сравнение плоских файлов (YAML)
+
+```
+gendiff filePath1.yaml filePath2.yaml
+```
+[![asciicast](https://asciinema.org/a/luuEYmdWHilif8rxcfZSFc37e.svg)](https://asciinema.org/a/luuEYmdWHilif8rxcfZSFc37e)
