@@ -17,3 +17,34 @@ gendiff filePath1.json filePath2.json
 gendiff filePath1.yaml filePath2.yaml
 ```
 [![asciicast](https://asciinema.org/a/luuEYmdWHilif8rxcfZSFc37e.svg)](https://asciinema.org/a/luuEYmdWHilif8rxcfZSFc37e)
+
+### Сравнение файлов, имеющих вложенные структуры
+
+```
+gendiff filePath1.yaml filePath2.yaml
+```
+или
+```
+gendiff filePath1.json filePath2.json
+```
+[![asciicast](https://asciinema.org/a/zGvcdxmhSzKTOGrWVpOuEDDnq.svg)](https://asciinema.org/a/zGvcdxmhSzKTOGrWVpOuEDDnq)
+
+### Плоский формат
+```
+gendiff --format plain filePath1.yaml filePath2.yaml
+```
+или
+```
+gendiff --format plain filePath1.json filePath2.json
+```
+[![asciicast](https://asciinema.org/a/GukDo616N6WvsKLeU5rmr3zr0.svg)](https://asciinema.org/a/GukDo616N6WvsKLeU5rmr3zr0)
+
+### Вывод в json
+```
+gendiff --format json filePath1.yaml filePath2.yaml
+```
+или
+```
+gendiff --format json filePath1.json filePath2.json
+```
+[![asciicast](https://asciinema.org/a/UuR9UVaIhJAw7uvCv1SePxCeO.svg)](https://asciinema.org/a/UuR9UVaIhJAw7uvCv1SePxCeO)
