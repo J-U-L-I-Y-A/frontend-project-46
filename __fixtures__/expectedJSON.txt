@@ -47,7 +47,7 @@
               {
                 "key": "wow",
                 "type": "changed",
-                "value1": "",
+                "value1": " ",
                 "value2": "so much"
               }
             ]

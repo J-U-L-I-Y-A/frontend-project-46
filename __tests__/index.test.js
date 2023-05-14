@@ -17,7 +17,7 @@ test('json', () => {
   expect(genDiff(file1, file2)).toEqual(readFile('expectedStylish.txt'));
   expect(genDiff(file1, file2, 'stylish')).toEqual(readFile('expectedStylish.txt'));
   expect(genDiff(file1, file2, 'plain')).toEqual(readFile('expectedPlain.txt'));
-  expect(genDiff(file1, file2, 'json')).toEqual(readFile('JSON.txt'));
+  expect(genDiff(file1, file2, 'json')).toEqual(readFile('expectedJSON.txt'));
 });
 
 test('yaml/yml', () => {
