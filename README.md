@@ -12,9 +12,10 @@
 Генерация отчета в виде plain text, stylish и json
 
 ### Системные требования
+```
 ОС: Linux, Windows, WSL.
 node js version: от v18.
-
+```
 ### Установка
 ```
 git clone git@github.com:J-U-L-I-Y-A/frontend-project-46.git
