@@ -2,6 +2,26 @@
 [![Actions Status](https://github.com/J-U-L-I-Y-A/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/J-U-L-I-Y-A/frontend-project-46/actions)
 [![CI Status](https://github.com/J-U-L-I-Y-A/frontend-project-46/actions/workflows/gendiff.yml/badge.svg)](https://github.com/J-U-L-I-Y-A/frontend-project-46/actions/workflows/gendiff.yml)
 [![Maintainability](https://api.codeclimate.com/v1/badges/22f4344c7f4330303be9/maintainability)](https://codeclimate.com/github/J-U-L-I-Y-A/frontend-project-46/maintainability)
+### Проект "Вычислитель Отличий"
+
+Вычислитель отличий – программа, определяющая разницу между двумя структурами данных.
+Подобный механизм используется при выводе тестов или при автоматическом отслеживании изменении в конфигурационных файлах.
+## Возможности утилиты:
+
+Поддержка разных входных форматов: yaml, json
+Генерация отчета в виде plain text, stylish и json
+
+### Системные требования
+ОС: Linux, Windows, WSL.
+node js version: от v18.
+
+### Установка
+```
+git clone git@github.com:J-U-L-I-Y-A/frontend-project-46.git
+cd frontend-project-46
+make install или npm ci
+npm link (может потребоваться sudo)
+```
 ## Пример использования
 
 ### Сравнение плоских файлов (JSON)
